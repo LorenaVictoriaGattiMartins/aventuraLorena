@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Aventura no Planeta X</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Enquanto estudava sobre astronomia, encontrei um antigo diário de bordo de uma nave espacial que relatava a existência de um planeta misterioso, conhecido como Planeta X. O diário mencionava seres inteligentes e tecnologia avançada escondida. Decidi investigar e embarcar nessa aventura intergaláctica!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Lua</button>
+            <button class="btn-proximo" data-proximo="2">Viajar até Marte</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide começar sua jornada explorando a Lua. Ao aterrissar no lado oculto, você encontra ruínas alienígenas antigas que parecem conter pistas sobre o Planeta X.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar as ruínas</button>
+            <button class="btn-proximo" data-proximo="4">Voltar à Terra</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Marte, você visita uma base de pesquisa abandonada. Os registros indicam que o próximo passo para encontrar o Planeta X está escondido em um dos antigos vales do planeta. Para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o Vale Marineris</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as Dunas de Marte</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas ruínas da Lua, você descobre um portal antigo que aponta para as coordenadas do Planeta X no sistema estelar vizinho.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o sistema estelar vizinho</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/nave.jpeg" alt="imagem voltando para casa após desistir da aventura">
+            <p>Você decide que a missão é perigosa demais e retorna à Terra, mas a curiosidade sobre o que poderia ter encontrado no espaço nunca desaparece.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando o Vale Marineris, você encontra um cristal alienígena que revela um mapa astronômico com as coordenadas do Planeta X.</p>
+            <button class="btn-proximo" data-proximo="7">Partir para o sistema estelar vizinho</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao explorar as dunas de Marte, você se depara com uma tempestade de areia intensa que oculta qualquer pista. Você precisará mudar de estratégia.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e explorar o Vale Marineris</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao chegar ao sistema estelar vizinho, sua nave se depara com dois planetas misteriosos. Qual deles será o Planeta X?</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o Planeta à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o Planeta à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao Vale Marineris, você finalmente encontra o cristal com o mapa astronômico que o guia até o Planeta X. Agora, siga para o sistema estelar vizinho!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o sistema estelar vizinho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O planeta à esquerda revela uma civilização antiga e avançada, com tecnologias extraordinárias e conhecimentos esquecidos. Você finalmente encontrou o Planeta X!</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Planeta X</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O planeta à direita é desolado e hostil. Embora seja uma visão impressionante, não há sinais de vida ou tecnologia aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e explorar o outro planeta</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/x.jpeg" alt="explorando uma civilização avançada no Planeta X">
+            <p>Ao explorar o Planeta X, você descobre avanços científicos inimagináveis e decide se dedicar a aprender e proteger esses conhecimentos.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Depois de retornar e explorar o planeta à esquerda, você finalmente encontra a civilização antiga e avançada do Planeta X.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Planeta X</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
