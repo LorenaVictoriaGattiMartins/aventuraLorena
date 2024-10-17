@@ -38,21 +38,3 @@ Contribuições são bem-vindas! Se você encontrar algum bug ou tiver alguma su
 
 **lorenavictoriagattimartins.github.io/aventuraLorena**
 
-## Licença
-Este projeto está licenciado sob a licença [Nome da licença].
-
-**Observações:**
-
-* **Personalize:** Adapte este README.md para incluir informações específicas sobre o seu projeto, como o propósito, as tecnologias utilizadas e os próximos passos.
-* **Imagens:** Certifique-se de incluir as imagens necessárias para o funcionamento do projeto.
-* **Licença:** Escolha uma licença apropriada para o seu projeto e inclua as informações relevantes.
-* **Link do repositório:** Substitua "[Link para o repositório]" pelo link real do seu repositório.
-
-**Dicas Adicionais:**
-
-* Use seções e subseções para organizar o conteúdo de forma clara.
-* Utilize markdown para formatar o texto e adicionar elementos como listas, tabelas e códigos.
-* Inclua imagens e capturas de tela para ilustrar o projeto.
-* Mantenha o README.md atualizado à medida que o projeto evolui.
-
-Com este README.md bem estruturado, você terá um guia completo para o seu projeto, facilitando a compreensão para você e para outros desenvolvedores.
